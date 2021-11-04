@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/custom-responsive-style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-light fixed-top justify-content-between">
+            <button styles="border: unset!important;" type="button">
+                <a class="navbar-brand" href="index.html">        
+                    <img src="./img/logo.png" alt=""> 
+                </a>
+            </button>
+            <div class="form-inline left-10">
+                <li class="nav-item navbar-nav">
+                    <a class="nav-link scroll-link" href="#top-content"><i class="fas fa-globe"></i>Eng</a>
+                </li>
+                <li class="nav-item navbar-nav">
+                    <a class="nav-link scroll-link menu-link" href="#top-content"><i class="fa fa-bars"></i>Menu</a>
+                </li>
+                <li class="closer">
+                    <a class="close" href="#top-content"><i class="fa fa-times"></i>Close</a>
+                </li>
+                <div class="nav_overlay">
+                </div>
+                <div class="nav_hiddent">
+                    <ul class="menu_home">
+                        <li>
+                            <a class="about_drop" href="#">About Us <i class="fa fa-angle-right"></i></a>
+                        </li>
+                        <li><a href="#">Our Businesses</a></li>
+                        <li><a href="#">Our Projects</a></li>
+                        <li><a href="#">Sustainabilitys</a></li>
+                        <li><a href="#">People</a></li>
+                        <li><a href="#">News &amp; Publications</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li class="language">
+                            <i class="fa fa-globe"><a class="language_home" href="#">Language</a></i>
+                        </li>
+                    </ul>
+                    <ul class="about">
+                        <li>
+                            <a href="#"><i class="fa fa-angle-left back_menu"></i>Overview</a>
+                        </li>
+                        <li>
+                            <a href="#">Managemment</a>
+                        </li>
+                        <li>
+                            <a href="#">History</a>
+                        </li>
+                    </ul>
+                    <ul class="language-hiddent">
+                        <li>
+                            <a href="#"><i class="fa fa-angle-left back_menu_language"></i>Language</a>
+                        </li>
+                        <li>
+                            <a href="#">Eng</a>
+                        </li>
+                        <li>
+                            <a href="#">简</a>
+                        </li>
+                        <li>
+                            <a href="#">繁</a>
+                        </li>
+                        <li>
+                            <a href="#">ไทย</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+
+        </nav>
+
+    </header>
+    <section class="banner">
+        <div class="slider" id="rectangle">
+            <!-- fade css -->
+            <div class="myslide fade bitmap1">
+                <div class="txt">
+                    <h3 id="leading">LEANDING</h3>
+                    <h1 id="theFuture">THE FUTURE</h1>
+                </div>
+            </div>
+
+            <div class="myslide fade bitmap3">
+                <div class="txt">
+                    <h3 id="leading">LEANDING</h3>
+                    <h1 id="theFuture">THE FUTURE</h1>
+                </div>
+            </div>
+
+            <div class="myslide fade bitmap2">
+                <div class="txt">
+                    <h3 id="leading">LEANDING</h3>
+                    <h1 id="theFuture">THE FUTURE</h1>
+                </div>
+            </div>
+
+
+            <!-- /fade css -->
+
+
+            <div class="dotsbox" style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+            <!-- /onclick js -->
+        </div>
+    </section>
+    <section id="Services">
+        <div class="container">
+            <div class="block-heading">
+                <h2>OUT BUSINESSES</h2>
+                <p>A leading provider of engineering services, sourcing and contracting expertise.</p>
+            </div>
+            <div class="services-wrapper">
+                <div class="each-service" data-sr-id="1">
+                    <div class="service-icon">
+                        <img src="./img/Envi.png" alt=""></i>
+                    </div>
+                    <h5 class="service-title">ENVIRONMENTAL</h5>
+                </div>
+                <div class="each-service" data-sr-id="1">
+                    <div class="service-icon">
+                        <img src="./img/fly.png " alt=""></i>
+                    </div>
+                    <h5 class="service-title">INFRASTRUCTURE & TRANSPORTATION</h5>
+                </div>
+                <div class="each-service" data-sr-id="1">
+                    <div class="service-icon">
+                        <img src="./img/energy1.png" alt=""></i>
+                    </div>
+                    <h5 class="service-title">ENERGY & RENEWABLES</h5>
+                </div>
+                <div class="each-service" data-sr-id="1">
+                    <div class="service-icon">
+                        <img src="./img/edu.png" alt=""></i>
+                    </div>
+                    <h5 class="service-title">EDUCATION</h5>
+                </div>
+                <div class="each-service" data-sr-id="1">
+                    <div class="service-icon">
+                        <img src="./img/head.png" alt=""></i>
+                    </div>
+                    <h5 class="service-title">HEALTHCARE</h5>
+                </div>
+                <div class="each-service" data-sr-id="1">
+                    <div class="service-icon">
+                        <img src="./img/datass.png" alt=""></i>
+                    </div>
+                    <h5 class="service-title">DATACENTRES</h5>
+                </div>
+                <div class="each-service" data-sr-id="1">
+                    <div class="service-icon">
+                        <img src="./img/leisu.png" alt=""></i>
+                    </div>
+                    <h5 class="service-title">LEISURE</h5>
+                </div>
+                <div class="each-service" data-sr-id="1">
+                    <div class="service-icon">
+                        <img src="./img/commer.png" alt=""></i>
+                    </div>
+                    <h5 class="service-title">COMMERCIAL</h5>
+                </div>
+            </div>
+            <div class="learn-more">
+                <h1>Learn More</h1>
+                <hr width="15%" size="10px" align="center" />
+            </div>
+        </div>
+    </section>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./js/app.js"></script>
+</body>
+
+</html>
